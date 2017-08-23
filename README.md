@@ -5,7 +5,9 @@ I have not used Scikit learn library , instead I used numpy library to implement
 The following Dataset can be tested on the algo.
 
 Mass Speed  Class
+
 1.0   0.1   Bomber
+
 2.0   0.2   Bomber
 0.1   0.3   Fighter
 2.0   0.3   Bomber
