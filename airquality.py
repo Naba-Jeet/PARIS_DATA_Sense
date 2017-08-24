@@ -10,7 +10,7 @@ def main():
     df2 = df[df.Date.dt.year==2005]
     df2 = df2[df2.Date.dt.month>=3]
     df2 = df2[df2.Date.dt.month<=6]
-    df2 = df2[df2.NO2_GT>100]
+    df2 = df2[df2.NO2_GT<100]
     df2.to_csv('answer1.csv',sep=',',header=True)    
 #print to file
 main()
